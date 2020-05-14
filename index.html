@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/site.css">
+<style> 
+	html
+	{
+		scroll-behavior: smooth;
+	}
+	</style>
+	</head>
+
+<body>
+	<div class="main">
+	
+		
+		
+	<div id="mot" class="hinh2">
+		<div class="next">
+			<a style="text-decoration: none;" href=""> Tiếp Theo &#x2192; </a>
+		</div>
+		<div class="prev">
+			<a style="text-decoration: none;"  href=""> &#8592; Quay Lại </a>
+		</div>
+		
+		<div class="chu1 wow fadeInDown" data-wow-delay="0.5s">
+			<font style="font-size: 100pt; padding-right: 1000px; font-weight: Bold; font-style: italic" > 
+			
+			G &nbsp R &nbsp E &nbsp Y
+	
+			</font>
+			<br>
+			
+			<font style="font-size: 100pt; padding-left: 450px; font-weight: Bold; font-style: italic" > 
+			
+			H &nbsp O &nbsp O &nbsp D &nbsp Y
+	
+			</font>
+			
+			
+		</div>
+		
+		<div class="left">
+			
+		<a style="text-decoration: none; padding-right: 15px;" href=""> MY ACCOUNT </a>
+		<a href=""> <i class="fa fa-shopping-bag" style="font-size:24px"></i></a>
+		
+		</div>
+		
+		<nav>
+			<ul>
+						<li><a href="#mot"> ĐÀN ÔNG </a></li>
+						<li><a href="#hai"> PHỤ NỮ </a></li>
+						<li><a href="#ba"> TRẺ EM </a></li>
+						<li><a href="#bon"> TUỔI TEEN </a></li>
+					
+					</ul>
+			<br>
+				
+		<a href=""> <i class="fa fa-facebook-f" style="font-size:24px"></i></a>
+		<a href=""> <i class="fa fa-twitter" style="font-size:24px"></i></a>
+		<a href=""> <i class="fa fa-instagram" style="font-size:24px"></i></a>
+			
+		<div class="scrool">
+		<a style="text-decoration: none; padding-right: 20px; font-weight: bold;" href=""> SCROOL </a>
+		</div>
+				
+		<div class="flash">
+		<a style="text-decoration: none; padding-right: 20px; font-weight: bold;" href=""> FLASH. </a>
+		</div>
+			
+		</nav>
+		
+		</div>
+		
+	    <div id="hai" class="hinh3">
+			
+			<div class="next">
+			<a style="text-decoration: none;" href=""> Tiếp Theo &#x2192; </a>
+		</div>
+		<div class="prev">
+			<a style="text-decoration: none;"  href=""> &#8592; Quay Lại </a>
+		</div>
+			
+			<div class="chu2 wow fadeInLeft" data-wow-delay="0.5s">
+			<font style="font-size: 100pt; padding-right: 1000px; font-weight: Bold; font-style: italic" > 
+			
+			B &nbsp L &nbsp <font style="color: white" > A &nbsp C &nbsp K </font>
+	
+			</font>
+			<br>
+			
+			<font style="font-size: 100pt; padding-left: 450px; font-weight: Bold; font-style: italic" > 
+			
+			<font style="color: white" > H &nbsp O &nbsp  </font> O &nbsp D &nbsp Y
+	
+			</font>
+			
+			
+		</div>
+		</div>
+		
+		<div id="ba" class="hinh4">
+			
+			<div class="next">
+			<a style="text-decoration: none;" href=""> Tiếp Theo &#x2192; </a>
+		</div>
+		<div class="prev">
+			<a style="text-decoration: none;"  href=""> &#8592; Quay Lại </a>
+		</div>
+			
+			<div class="chu3 wow fadeInRight" data-wow-delay="0.5s">
+			<font style="font-size: 100pt  font-weight: Bold; font-style: italic" > 
+			
+			R &nbsp E &nbsp D
+	
+			</font>
+			<br>
+			
+			<font style="font-size: 100pt; padding-left: 300px; font-weight: Bold; font-style: italic" > 
+			
+			H &nbsp O &nbsp O &nbsp D &nbsp Y
+	
+			</font>
+			
+			
+		</div>
+		</div>
+		
+		<div id="bon" class="hinh5">
+			
+			<div class="next">
+			<a style="text-decoration: none;" href=""> Tiếp Theo &#x2192; </a>
+		</div>
+		<div class="prev">
+			<a style="text-decoration: none;"  href=""> &#8592; Quay Lại </a>
+		</div>
+			
+			<div class="chu4 wow fadeInUp" data-wow-delay="0.5s">
+			<font style="font-size: 100pt; font-weight: Bold; font-style: italic" > 
+			
+			Y &nbsp E &nbsp L &nbsp L &nbsp O &nbsp W
+	
+			</font>
+			<br>
+			
+			<font style="font-size: 100pt; padding-left: 500px; font-weight: Bold; font-style: italic" > 
+			
+			H &nbsp O &nbsp O &nbsp D &nbsp Y
+	
+			</font>
+			
+			
+		</div>
+		</div>
+		
+	
+	</div>
+	
+	<script	src="js/wow.js"></script>
+	 <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+	
+</body>
+</html>

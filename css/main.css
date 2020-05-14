@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.main
+{
+	width: 1920px;
+	height: 3600px;
+	background-color: antiquewhite;
+	margin: 0 auto;
+	position: relative;
+	overflow: scroll;
+	scroll-behavior: smooth;
+	overflow: hidden;
+}
+.hinh2
+{
+	width: 100%;
+	height: 900px;
+	background-image:url("../images/2.png");
+	position: relative;
+	background-repeat: no-repeat;
+}
+nav
+{
+	width: 15%;
+	height: 900px;
+	background-color: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: "Oswald";
+	position: fixed;
+	z-index: 2;
+}
+ul
+{
+
+	list-style: none;
+	margin: 0px;
+	
+}
+
+ul li a
+{
+	text-decoration: none;
+}
+
+ul li
+{
+	padding: 30px;
+}
+
+@font-face
+{
+	src: url("../font/Roboto-Regular.ttf");
+	font-family: "roboto";
+	
+	src: url(../font/Oswald-Regular.ttf);
+	font-family: "Oswald";
+	
+	
+}
+.left
+{
+	width: 15%;
+	height: 50px;
+	float: right;
+	font-family: "roboto";
+	padding: 20px 0 0 1000px;
+	
+}
+.scrool
+{
+	width: 20%;
+	height: 50px;
+	float: right;
+	position: absolute;
+	top: 850px;
+	left: 1710px;
+	font-family: "roboto";
+	position: fixed;
+}
+
+.flash
+{
+	width: 20%;
+	height: 50px;
+	position: absolute;
+	right: 1360px;
+	top: 30px;
+	font-family: "roboto";
+	position: fixed;
+}
+.hinh3
+{
+	width: 100%;
+	height: 900px;
+	background-image: url("../images/5.png");
+	position: relative;
+	z-index: 1;
+	background-repeat: no-repeat;
+}
+.hinh4
+{
+	width: 100%;
+	height: 900px;
+	background-image: url("../images/3.png");
+	position: relative;
+	z-index: 1;
+	background-repeat: no-repeat;
+}
+.hinh5
+{
+	width: 100%;
+	height: 900px;
+	background-image: url("../images/4-1.png");
+	position: relative;
+	z-index: 1;
+	background-repeat: no-repeat;
+}
+.chu1
+{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 250px;
+	left: 400px;
+	font-family: "roboto";
+}
+.chu2
+{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 250px;
+	left: 400px;
+	font-family: "roboto";
+}
+.chu3
+{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 250px;
+	left: 400px;
+	font-family: "roboto";
+}
+.chu4
+{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 250px;
+	left: 400px;
+	font-family: "roboto";
+}
+.next
+{
+	width: 100px;
+	height: 50px;
+	z-index: 2;
+	position: absolute;
+	left: 1350px;
+	top: 100px;
+	font-family: "roboto";
+}
+.prev
+{
+	width: 100px;
+	height: 50px;
+	z-index: 2;
+	position: absolute;
+	right: 1350px;
+	top: 700px;
+	font-family: "roboto";
+}
+
+ .wow:first-child {
+      visibility: hidden;
+    }
